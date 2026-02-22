@@ -19,14 +19,14 @@ const Step2VSL = () => {
           {/* Headline */}
           <div className="text-center space-y-4">
             <h1 className="text-3xl sm:text-5xl font-display font-bold text-gradient-gold leading-tight">
-              Découvrez Où Vous Perdez
+              Comment On a Aidé Un Entrepreneur
               <br />
-              du Temps et de l'Argent
+              à Récupérer 400 000$+ en Temps & Argent
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Cette vidéo exclusive vous montre comment{" "}
-              <span className="text-gold font-semibold">identifier les fuites invisibles</span> dans votre entreprise
-              — et comment les colmater avec l'automatisation.
+              Découvrez la méthode exacte qui a permis de{" "}
+              <span className="text-gold font-semibold">colmater les fuites invisibles</span> dans son entreprise
+              — et comment vous pouvez faire la même chose grâce à l'automatisation.
             </p>
           </div>
 
