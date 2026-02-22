@@ -122,6 +122,17 @@ const Step3PreCall = () => {
           </div>
         </div>
       </div>
+
+      <footer className="px-4 py-6 border-t border-gold/10">
+        <div className="max-w-4xl mx-auto text-center space-y-3">
+          <p className="text-xs text-muted-foreground">
+            Copyright © 2025 Nuvra-Automation inc. All rights reserved. By accessing this site, you agree to our Terms of Use and Privacy Policy.
+          </p>
+          <p className="text-[10px] text-muted-foreground/60 leading-relaxed">
+            DISCLAIMER: The information and services provided on this site do not guarantee results or financial success. Individual outcomes depend on various factors, including effort, skill, and market conditions. Past performance does not guarantee future results. Results shown in testimonials and examples are exceptional and not typical. By submitting your information, you consent to receive communications, including SMS and emails, regarding our programs and services. Message and data rates may apply. Opt-out at any time.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
