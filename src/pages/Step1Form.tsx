@@ -33,12 +33,12 @@ const Step1Form = () => {
           {/* Headline */}
           <div className="text-center space-y-3">
             <h1 className="text-3xl sm:text-4xl font-display font-bold text-gradient-gold leading-tight">
-              Découvrez Comment Un Entrepreneur
+              Les 5 Indicateurs Qui Ont Permis à Un Entrepreneur de Récupérer 400 000$+/An
               <br />
-              a Récupéré 400 000$+ en Temps & Argent
+              <span className="text-foreground">— Et de Reprendre le Contrôle de Son Temps, Sa Vie & Sa Famille</span>
             </h1>
             <p className="text-muted-foreground text-base">
-              Entrez vos informations pour accéder à la <span className="text-gold font-semibold">vidéo exclusive</span> qui révèle la méthode exacte — et comment l'appliquer à votre entreprise.
+              Entrez vos informations pour accéder à la <span className="text-gold font-semibold">vidéo exclusive</span> qui dévoile ces 5 leviers — et comment les activer dans votre entreprise dès aujourd'hui.
             </p>
           </div>
 
