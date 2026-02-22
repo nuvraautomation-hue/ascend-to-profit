@@ -69,7 +69,7 @@ const Step3PreCall = () => {
             <div className="text-center space-y-3">
               <h2 className="text-2xl sm:text-3xl font-display font-bold text-gradient-gold">
                 Regardez Cette Vidéo Avant Votre Appel
-              </h2>
+              </h2>https://youtu.be/9njwwFg5dg4
               <p className="text-muted-foreground">
                 Préparez-vous en <span className="text-gold font-semibold">5 minutes</span> pour maximiser les résultats de votre consultation.
               </p>
