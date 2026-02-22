@@ -80,17 +80,12 @@ const Step2VSL = () => {
 
             {/* Calendar Embed Placeholder */}
             <div className="border border-gold/20 rounded-2xl overflow-hidden shadow-gold bg-surface-elevated">
-              <div className="min-h-[500px] flex items-center justify-center p-8">
-                <div className="text-center space-y-4">
-                  <div className="text-5xl">📅</div>
-                  <h3 className="font-display text-xl text-gold">Calendrier de Réservation</h3>
-                  <p className="text-muted-foreground text-sm max-w-md">
-                    Intégrez votre calendrier de booking ici (Calendly, Cal.com, etc.)
-                    <br />
-                    Remplacez ce bloc par votre iframe de réservation.
-                  </p>
-                </div>
-              </div>
+              <iframe
+                src="https://link.nuvra-automation.com/widget/booking/E2JoXVad4BTyyvImgI1O"
+                className="w-full min-h-[600px] border-0"
+                title="Réserver une consultation"
+                allowFullScreen
+              />
             </div>
           </div>
 
