@@ -33,13 +33,12 @@ const Step1Form = () => {
           {/* Headline */}
           <div className="text-center space-y-3">
             <h1 className="text-3xl sm:text-4xl font-display font-bold text-gradient-gold leading-tight">
-              Arrêtez de Perdre de l'Argent.
+              Découvrez Comment Un Entrepreneur
               <br />
-              Commencez à Automatiser.
+              a Récupéré 400 000$+ en Temps & Argent
             </h1>
             <p className="text-muted-foreground text-base">
-              Remplissez le formulaire pour découvrir comment récupérer{" "}
-              <span className="text-gold font-semibold">10+ heures par semaine</span> grâce à l'automatisation.
+              Entrez vos informations pour accéder à la <span className="text-gold font-semibold">vidéo exclusive</span> qui révèle la méthode exacte — et comment l'appliquer à votre entreprise.
             </p>
           </div>
 
