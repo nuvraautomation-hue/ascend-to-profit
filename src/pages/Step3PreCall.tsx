@@ -76,18 +76,13 @@ const Step3PreCall = () => {
             </div>
 
             <div className="border border-gold/20 rounded-2xl overflow-hidden shadow-gold bg-surface-elevated">
-              <div className="aspect-video flex items-center justify-center bg-surface relative">
-                <div className="text-center space-y-4 p-8">
-                  <div className="w-20 h-20 rounded-full bg-gradient-gold flex items-center justify-center mx-auto cursor-pointer hover:scale-110 transition-transform">
-                    <svg className="w-8 h-8 text-primary-foreground ml-1" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </div>
-                  <p className="text-muted-foreground text-sm">
-                    Importez votre vidéo pré-appel ici
-                  </p>
-                </div>
-              </div>
+              <iframe
+                className="w-full aspect-video"
+                src="https://www.youtube.com/embed/9njwwFg5dg4"
+                title="Vidéo pré-appel"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           </div>
 
