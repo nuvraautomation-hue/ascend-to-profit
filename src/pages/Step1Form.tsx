@@ -47,7 +47,7 @@ const Step1Form = () => {
             <iframe
               src="https://link.nuvra-automation.com/widget/form/rOtfWDqF9u0J6sVGXbTo?notrack=true"
               className="w-full"
-              style={{ height: '500px', border: 'none' }}
+              style={{ height: '900px', border: 'none' }}
               title="Formulaire Nuvra"
               allow="clipboard-write"
               scrolling="no"
