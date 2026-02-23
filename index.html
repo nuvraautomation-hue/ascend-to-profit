@@ -6,8 +6,12 @@
   <title>VSL - Nuvra Automation</title>
   <meta name="description" content="Découvrez comment automatiser vos prises de rendez-vous et augmenter vos revenus." />
 
-  <!-- Canonical (optionnel mais propre) -->
-  <link rel="canonical" href="https://vsl.nuvra-automation.com/" />
+  <!-- Canonical / Partage (propre, optionnel) -->
+  <link rel="canonical" href="https://vsl2.nuvra-automation.com/" />
+  <meta property="og:title" content="VSL - Nuvra Automation" />
+  <meta property="og:description" content="Découvrez comment automatiser vos prises de rendez-vous et augmenter vos revenus." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vsl2.nuvra-automation.com/" />
 
   <style>
     body {
@@ -18,17 +22,15 @@
       text-align: center;
       padding: 40px 20px;
     }
-
     h1 {
-      margin-bottom: 30px;
+      margin: 0 0 24px;
       font-size: 28px;
+      line-height: 1.2;
     }
-
     .container {
       max-width: 900px;
       margin: 0 auto;
     }
-
     .video-wrapper {
       position: relative;
       padding-bottom: 56.25%;
@@ -36,34 +38,44 @@
       overflow: hidden;
       border-radius: 16px;
       box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      background: #000;
     }
-
     .video-wrapper iframe {
       position: absolute;
-      top: 0;
-      left: 0;
+      inset: 0;
       width: 100%;
       height: 100%;
       border: none;
     }
-
     .cta {
-      margin-top: 40px;
+      margin-top: 28px;
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
     }
-
-    .cta a {
+    .btn {
       display: inline-block;
-      background: #D4AF37;
-      color: black;
-      padding: 14px 30px;
-      font-weight: bold;
-      border-radius: 50px;
+      padding: 14px 26px;
+      font-weight: 700;
+      border-radius: 999px;
       text-decoration: none;
       font-size: 16px;
     }
-
-    .cta a:hover {
-      opacity: 0.9;
+    .btn-primary {
+      background: #D4AF37;
+      color: #000;
+    }
+    .btn-secondary {
+      background: transparent;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.25);
+    }
+    .btn:hover { opacity: 0.92; }
+    .note {
+      margin-top: 16px;
+      font-size: 13px;
+      opacity: 0.75;
     }
   </style>
 </head>
@@ -80,10 +92,22 @@
     </div>
 
     <div class="cta">
-      <a href="https://go.nuvra-automation.com/booking">
-        Confirmer mon rendez-vous
+      <!-- Change ce lien vers TON booking -->
+      <a class="btn btn-primary" href="https://go.nuvra-automation.com/booking">
+        Confirmer / Réserver un appel
+      </a>
+
+      <!-- Optionnel -->
+      <a class="btn btn-secondary" href="https://nuvra-automation.com/">
+        Retour au site
       </a>
     </div>
+
+    <div class="note">
+      Astuce: garde la vidéo “Non répertoriée” sur YouTube. Parfait pour un funnel.
+    </div>
   </div>
+</body>
+</html>
 </body>
 </html>
