@@ -42,85 +42,20 @@ const Step1Form = () => {
             </p>
           </div>
 
-          {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-5">
-            <div className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-1.5">Nom complet *</label>
-                <input
-                  type="text"
-                  required
-                  value={formData.fullName}
-                  onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
-                  placeholder="Jean Dupont"
-                  className="w-full px-4 py-3 rounded-lg bg-surface border border-gold/20 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold/50 transition-all"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-1.5">Adresse email *</label>
-                <input
-                  type="email"
-                  required
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  placeholder="jean@entreprise.com"
-                  className="w-full px-4 py-3 rounded-lg bg-surface border border-gold/20 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold/50 transition-all"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-1.5">Numéro de téléphone *</label>
-                <input
-                  type="tel"
-                  required
-                  value={formData.phone}
-                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  placeholder="+1 (514) 555-0123"
-                  className="w-full px-4 py-3 rounded-lg bg-surface border border-gold/20 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold/50 transition-all"
-                />
-              </div>
-            </div>
-
-            {/* Consent checkboxes */}
-            <div className="space-y-3 pt-2">
-              <label className="flex items-start gap-3 cursor-pointer group">
-                <input
-                  type="checkbox"
-                  checked={formData.acceptSms}
-                  onChange={(e) => setFormData({ ...formData, acceptSms: e.target.checked })}
-                  className="mt-1 w-4 h-4 rounded border-gold/30 bg-surface accent-gold"
-                />
-                <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
-                  J'accepte de recevoir des <span className="text-gold">messages texte (SMS)</span> de Nuvra Automation concernant mes demandes et offres.
-                </span>
-              </label>
-
-              <label className="flex items-start gap-3 cursor-pointer group">
-                <input
-                  type="checkbox"
-                  checked={formData.acceptEmail}
-                  onChange={(e) => setFormData({ ...formData, acceptEmail: e.target.checked })}
-                  className="mt-1 w-4 h-4 rounded border-gold/30 bg-surface accent-gold"
-                />
-                <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
-                  J'accepte de recevoir des <span className="text-gold">communications par email</span> de Nuvra Automation.
-                </span>
-              </label>
-            </div>
-
-            {/* CTA */}
-            <button
-              type="submit"
-              className="w-full py-4 rounded-lg bg-gradient-gold text-primary-foreground font-bold text-lg tracking-wide hover:opacity-90 transition-all animate-pulse-gold"
-            >
-              🚀 ACCÉDER À LA PRÉSENTATION GRATUITE
-            </button>
-
-            <p className="text-center text-xs text-muted-foreground">
-              🔒 Vos informations sont protégées et ne seront jamais partagées.
-            </p>
-          </form>
+          {/* Embedded Form */}
+          <div className="relative rounded-2xl border border-gold/20 bg-surface-elevated/50 p-1 shadow-gold backdrop-blur-sm">
+            <div className="absolute inset-0 rounded-2xl bg-gradient-to-b from-gold/10 via-transparent to-gold/5 pointer-events-none" />
+            <iframe
+              src="https://link.nuvra-automation.com/widget/form/rOtfWDqF9u0J6sVGXbTo?notrack=true"
+              className="w-full rounded-xl relative z-10"
+              style={{ height: '600px', border: 'none' }}
+              title="Formulaire Nuvra"
+              allow="clipboard-write"
+            />
+          </div>
+          <p className="text-center text-xs text-muted-foreground">
+            🔒 Vos informations sont protégées et ne seront jamais partagées.
+          </p>
         </div>
       </div>
 
