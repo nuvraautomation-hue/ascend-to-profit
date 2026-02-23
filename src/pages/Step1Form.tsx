@@ -53,6 +53,12 @@ const Step1Form = () => {
               scrolling="no"
             />
           </div>
+          <button
+            onClick={() => navigate("/presentation")}
+            className="w-full py-4 rounded-lg bg-gradient-gold text-primary-foreground font-bold text-lg tracking-wide hover:opacity-90 transition-all animate-pulse-gold"
+          >
+            🚀 ACCÉDER À LA PRÉSENTATION GRATUITE
+          </button>
           <p className="text-center text-xs text-muted-foreground">
             🔒 Vos informations sont protégées et ne seront jamais partagées.
           </p>
