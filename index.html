@@ -1,27 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VSL - Nuvra Automation</title>
-    <style>
-      body{margin:0;font-family:Arial,sans-serif;background:#0b0b0b;color:#fff;text-align:center;padding:40px 20px}
-      h1{margin:0 0 24px}
-      .wrap{max-width:900px;margin:0 auto}
-      .video{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:16px}
-      .video iframe{position:absolute;top:0;left:0;width:100%;height:100%}
-    </style>
-  </head>
-  <body>
-    <div class="wrap">
-      <h1>Avant notre appel, regardez cette courte vidéo :</h1>
-      <div class="video">
-        <iframe
-          src="https://www.youtube.com/embed/9njwwFg5dg4?rel=0&modestbranding=1"
-          frameborder="0"
-          allowfullscreen>
-        </iframe>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VSL - Nuvra Automation</title>
+  <meta name="description" content="Découvrez comment automatiser vos prises de rendez-vous et augmenter vos revenus." />
+
+  <!-- Canonical (optionnel mais propre) -->
+  <link rel="canonical" href="https://vsl.nuvra-automation.com/" />
+
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0b;
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .cta {
+      margin-top: 40px;
+    }
+
+    .cta a {
+      display: inline-block;
+      background: #D4AF37;
+      color: black;
+      padding: 14px 30px;
+      font-weight: bold;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .cta a:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Avant notre appel, regardez cette courte vidéo :</h1>
+
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/9njwwFg5dg4?rel=0&modestbranding=1"
+        allowfullscreen>
+      </iframe>
     </div>
-  </body>
+
+    <div class="cta">
+      <a href="https://go.nuvra-automation.com/booking">
+        Confirmer mon rendez-vous
+      </a>
+    </div>
+  </div>
+</body>
 </html>
